@@ -43,7 +43,7 @@ export const storage = {
 		uni.setStorageSync(key, data)
 	},
 	getItem: (key) => {
-		uni.getStorageSync(key)
+		return uni.getStorageSync(key)
 	}
 }
 
